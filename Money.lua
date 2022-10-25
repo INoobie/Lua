@@ -1,3 +1,6 @@
+--[[
+hello jack if you understand this i will give you your money :)
+]]
 local money = {};
 
 local leaderstats = Instance.new('Folder', game:GetService('Players').LocalPlayer);
