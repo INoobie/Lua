@@ -18,3 +18,4 @@ for _,v in pairs(game:GetDescendants()) do
         v.Transparency = 1
     end
 end
+game:GetService("RunService"):Set3dRenderingEnabled(false)
