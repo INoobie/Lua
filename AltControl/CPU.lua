@@ -19,3 +19,4 @@ for _,v in pairs(game:GetDescendants()) do
     end
 end
 game:GetService("RunService"):Set3dRenderingEnabled(false)
+-- render
