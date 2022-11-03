@@ -43,8 +43,8 @@ local function IGIIB_fake_script() -- label.LocalScript
 		local ok
 		while task.wait() do   
 			yes, ok = string.gsub(yes, "^(-?%d+)(%d%d%d)", '%1,%2')
-			if (ok==0) then
-				break
+			if (ok == 0) then
+			   break
 			end
 		end
 		return yes 
