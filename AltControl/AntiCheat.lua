@@ -20,3 +20,6 @@ end)
     end
     return anticheat(table.unpack(args))
  end)
+for i,v in next, getconnections(game:GetService('ScriptContext').Error) do
+    v:Disable()
+end
